@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b0e8fed-f244-46a7-809a-f1400aa58ede" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;FloppyHDGitHub&quot;
+    },
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;FloppyHDGitHub&quot;,
+      &quot;author&quot;: &quot;FloppyHDGitHub&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FloppyHDGitHub&quot;,
+    &quot;author&quot;: &quot;FloppyHDGitHub&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d1559fec-41c6-40cc-81aa-15b18a34c883" />
+        <option name="url" value="https://github.com/FloppyHDGitHub/NeedForWork.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Hfz0KjVuy7lcClPSbl7nOrxSCK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spentTimePerTaskStorage.store": "{}",
+    "tasks.open.task.update.state.enabled": "true",
+    "timeTracker.activityTracker": "null",
+    "timeTracker.comment": "",
+    "timeTracker.inactivityPeriodInMills": "600000",
+    "timeTracker.isAutoTrackingEnable": "false",
+    "timeTracker.isAutoTrackingTemporaryDisabled": "false",
+    "timeTracker.isManualTrackingEnable": "false",
+    "timeTracker.isPaused": "true",
+    "timeTracker.isPostAfterCommitEnabled": "false",
+    "timeTracker.isPostedScheduled": "true",
+    "timeTracker.isRunning": "false",
+    "timeTracker.isScheduledEnabled": "false",
+    "timeTracker.isWhenProjectClosedEnabled": "false",
+    "timeTracker.issueId": "Default",
+    "timeTracker.issueIdReadable": "Default",
+    "timeTracker.pausedTime": "0",
+    "timeTracker.query": "",
+    "timeTracker.recordedTime": "0",
+    "timeTracker.scheduledPeriod": "19:00:0",
+    "timeTracker.startTime": "0",
+    "timeTracker.timeInMills": "0",
+    "timeTracker.type": "Development",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\malon\Desktop\Factory\JavaScript\NeedForWork\core\fonts\" />
+      <recent name="C:\Users\malon\Desktop\Factory\JavaScript\NeedForWork\core\fonts" />
+      <recent name="C:\Users\malon\Desktop\Factory\JavaScript\NeedForWork\core" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="Default" summary="Default task">
+      <changelist id="1b0e8fed-f244-46a7-809a-f1400aa58ede" name="Changes" comment="" />
+      <created>1668690701929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668691679411</updated>
+      <workItem from="1668690704047" duration="974000" />
+    </task>
+    <task id="RCD-3" summary="test">
+      <option name="closed" value="true" />
+      <created>1668613001789</created>
+      <option name="issue" value="true" />
+      <url>https://realcraft.youtrack.cloud/issue/RCD-3</url>
+      <option name="number" value="3" />
+      <option name="presentableId" value="RCD-3" />
+      <option name="project" value="RCD" />
+      <option name="type" value="BUG" />
+      <updated>1668697393286</updated>
+      <workItem from="1668691679941" duration="778000" />
+      <workItem from="1668694975573" duration="646000" />
+    </task>
+    <task active="true" id="RCD-4" summary="RealCraft - NeedToWork - settings/create">
+      <created>1668697057044</created>
+      <option name="issue" value="true" />
+      <url>https://realcraft.youtrack.cloud/issue/RCD-4</url>
+      <option name="number" value="4" />
+      <option name="presentableId" value="RCD-4" />
+      <option name="project" value="RCD" />
+      <updated>1668718163229</updated>
+      <workItem from="1668697393474" duration="3299000" />
+      <workItem from="1668701209195" duration="112000" />
+      <workItem from="1668701595303" duration="4116000" />
+      <workItem from="1668714985833" duration="3169000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1668700993594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668700993594</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1668701673474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668701673474</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1668717525747</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668717525747</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers>
+      <YouTrack url="https://realcraft.youtrack.cloud">
+        <option name="defaultSearch" value="" />
+        <option name="preferredOpenTaskState">
+          <CustomTaskState id="Incomplete" name="Incomplete" />
+        </option>
+        <username>random</username>
+      </YouTrack>
+    </servers>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>
