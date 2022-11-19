@@ -7,5 +7,81 @@ body{
     font: 14px sans-serif;
 }
 .wrapper{
-    width: 360px; padding: 20px;
+    width: 360px;
+    padding: 20px;
+}
+
+.LoginBox {
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    width: 70%;
+    height: 420px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 14px;
+    box-shadow: 0 0 10px black;
+}
+
+.BoxInner {
+    color: white;
+    font-size: 20px;
+}
+
+
+label {
+    filter: blur(0px);
+}
+
+.loginBtn {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font: 20px sans-serif;
+    margin: 4px;
+    border: none;
+}
+
+.LoginBtn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pwFill{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    margin: 4px;
+    margin-left: -4px;
+    width: 70%;
+    height: 30px;
+    border-radius:  4px;
+    color: white;
+}
+
+.unFill {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    margin: 4px 4px 4px -4px;
+    width: 70%;
+    height: 30px;
+    border-radius:  4px;
+    color: white;
+}
+
+@media (max-width: 1020px) {
+    .BoxInner {
+        font-size: 50px;
+    }
+    .unfill, .pwFill {
+        height: 50px;
+        width: 100%;
+        font-size: 40px;
+    }
+    .LoginBox {
+        height: 100%;
+    }
+    .LoginBtn {
+        font-size: 40px;
+    }
 }
