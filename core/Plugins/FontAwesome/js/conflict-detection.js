@@ -1077,7 +1077,7 @@
   }), _defineProperty(_familyProxy4, FAMILY_SHARP, {
     'fa-solid': 'fass'
   }), _familyProxy4));
-  // TODO: do we need to handle font-weight for kit SVG pseudo-elements?
+
 
   var FONT_WEIGHT_TO_PREFIX = familyProxy((_familyProxy5 = {}, _defineProperty(_familyProxy5, FAMILY_CLASSIC, {
     '900': 'fas',

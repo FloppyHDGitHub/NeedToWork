@@ -3,3 +3,9 @@ Main CSS
     => Extends the default css styles
     =>
 */
+body{
+    font: 14px sans-serif;
+}
+.wrapper{
+    width: 360px; padding: 20px;
+}

@@ -173,7 +173,7 @@
   }), _defineProperty(_familyProxy4, FAMILY_SHARP, {
     'fa-solid': 'fass'
   }), _familyProxy4));
-  // TODO: do we need to handle font-weight for kit SVG pseudo-elements?
+
 
   var FONT_WEIGHT_TO_PREFIX = familyProxy((_familyProxy5 = {}, _defineProperty(_familyProxy5, FAMILY_CLASSIC, {
     '900': 'fas',
@@ -905,7 +905,7 @@
   }), _defineProperty(_familyProxy4, FAMILY_SHARP, {
     'fa-solid': 'fass'
   }), _familyProxy4));
-  // TODO: do we need to handle font-weight for kit SVG pseudo-elements?
+
 
   var FONT_WEIGHT_TO_PREFIX = familyProxy((_familyProxy5 = {}, _defineProperty(_familyProxy5, FAMILY_CLASSIC, {
     '900': 'fas',
@@ -1335,7 +1335,7 @@
   }), _defineProperty(_familyProxy4, FAMILY_SHARP, {
     'fa-solid': 'fass'
   }), _familyProxy4));
-  // TODO: do we need to handle font-weight for kit SVG pseudo-elements?
+
 
   var FONT_WEIGHT_TO_PREFIX = familyProxy((_familyProxy5 = {}, _defineProperty(_familyProxy5, FAMILY_CLASSIC, {
     '900': 'fas',
@@ -3169,8 +3169,7 @@
   var ICON_SELECTION_SYNTAX_PATTERN = /fa(s|r|l|t|d|b|k|ss)?[\-\ ]/; // eslint-disable-line no-useless-escape
 
   var LAYERS_TEXT_CLASSNAME = 'fa-layers-text';
-  var FONT_FAMILY_PATTERN = /Font ?Awesome ?([56 ]*)(Solid|Regular|Light|Thin|Duotone|Brands|Free|Pro|Sharp|Kit)?.*/i; // TODO: this needs to support fass
-  // TODO: do we need to handle font-weight for kit SVG pseudo-elements?
+  var FONT_FAMILY_PATTERN = /Font ?Awesome ?([56 ]*)(Solid|Regular|Light|Thin|Duotone|Brands|Free|Pro|Sharp|Kit)?.*/i;
 
   var FONT_WEIGHT_TO_PREFIX = familyProxy((_familyProxy5 = {}, _defineProperty(_familyProxy5, FAMILY_CLASSIC, {
     '900': 'fas',
@@ -3967,7 +3966,7 @@
         var additions = definitions.reduce(this._pullDefinitions, {});
         Object.keys(additions).forEach(function (key) {
           _this.definitions[key] = _objectSpread2(_objectSpread2({}, _this.definitions[key] || {}), additions[key]);
-          defineIcons(key, additions[key]); // TODO can we stop doing this? We can't get the icons by 'fa-solid' any longer so this probably needs to change
+          defineIcons(key, additions[key]);
 
           var longPrefix = PREFIX_TO_LONG_STYLE[FAMILY_CLASSIC][key];
           if (longPrefix) defineIcons(longPrefix, additions[key]);
