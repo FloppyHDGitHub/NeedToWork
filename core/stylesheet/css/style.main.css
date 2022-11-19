@@ -51,8 +51,7 @@ label {
 .pwFill{
     background-color: rgba(0, 0, 0, 0.8);
     border: none;
-    margin: 4px;
-    margin-left: -4px;
+    margin: 4px 4px 4px -4px;
     width: 70%;
     height: 30px;
     border-radius:  4px;
