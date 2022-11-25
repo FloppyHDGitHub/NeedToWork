@@ -15,7 +15,7 @@ body{
     background-color: transparent;
     backdrop-filter: blur(4px);
     width: 70%;
-    height: 420px;
+    height: auto;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -23,14 +23,13 @@ body{
     box-shadow: 0 0 10px black;
 }
 
+.loginInnerBox {
+    align-items: center;
+}
+
 .BoxInner {
     color: white;
     font-size: 20px;
-}
-
-
-label {
-    filter: blur(0px);
 }
 
 .loginBtn {
@@ -48,7 +47,9 @@ label {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.pwFill{
+
+
+.pwFill, .unFill{
     background-color: rgba(0, 0, 0, 0.8);
     border: none;
     margin: 4px 4px 4px -4px;
@@ -58,15 +59,6 @@ label {
     color: white;
 }
 
-.unFill {
-    background-color: rgba(0, 0, 0, 0.8);
-    border: none;
-    margin: 4px 4px 4px -4px;
-    width: 70%;
-    height: 30px;
-    border-radius:  4px;
-    color: white;
-}
 
 @media (max-width: 1020px) {
     .BoxInner {

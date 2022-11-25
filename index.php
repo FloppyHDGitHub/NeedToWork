@@ -106,7 +106,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 
-    <title>Title</title>
+    <title>Atrium</title>
 </head>
 <body style="
 background-image: url('core/img/AtriumLogin.jpg');
@@ -118,7 +118,7 @@ background-color: black;
         <div class="LoginBox">
             <div class="BoxInner">
                 <div class="wrapper">
-                    <h2>Willkommen</h2>
+                    <h2> Willkommen</h2>
                     <p>Hier kannst du dich anmelden</p>
 
                     <?php
@@ -126,19 +126,32 @@ background-color: black;
                         echo '<div class="alert alert-danger">' . $login_err . '</div>';
                     }
                     ?>
-                    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-                        <div class="form-group">
-                            <label>Benutzername</label><br><br>
-                            <input type="text" name="username" class="unFill <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
+                    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" >
+                        <div>
+                            <select placeholder="Tresen" type="list" name="username" class="unFill <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>" >
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="BLACK">Black</option>
+                                <option value="EMPORE">Empore</option>
+                                <option value="TREPPE">Treppe</option>
+                                <option value="SPACE">Space</option>
+                                <option value="SAUSE">Sause</option>
+                                <option value="ALM">Alm</option>
+                                <option value="COCKTAIL">Cocktail</option>
+                            </select>
+
                             <span class="invalid-feedback"><?php echo $username_err; ?></span>
                         </div>
                         <div class="form-group">
-                            <label>Passwort</label><br><br>
-                            <input type="password" name="password" class="pwFill <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
+                            <br>
+                            <input placeholder="Passwort" type="password" name="password" class="pwFill <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
                             <span class="invalid-feedback"><?php echo $password_err; ?></span>
                         </div>
                         <div class="form-group"><br>
-                            <input type="submit" class="loginBtn" value="Anmelden">
+                            <input type="submit" class="loginBtn" value="Login">
                         </div>
                 </div>
             </div>
